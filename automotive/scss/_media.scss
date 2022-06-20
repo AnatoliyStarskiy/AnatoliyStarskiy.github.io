@@ -1,0 +1,180 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 900px;
+    }
+
+    .pricing {
+        &__item {
+            width: 278px;
+        }
+    }
+
+    .footer {
+        padding: 63px 50px 56px 50px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 700px;
+    }
+
+    .header {
+        min-height: 600px;
+        padding-bottom: 100px;
+
+        &__inner {
+            margin-top: 100px;
+        }
+    }
+
+    .menu {
+        width: 100%;
+
+        &__logo {
+            img {
+                width: 200px;
+            }
+        }
+
+        &__nav {
+            width: 500px;
+        }
+
+        &__item {
+            margin-right: 13px;
+        }
+
+    }
+
+    .info {
+        &__cards {
+            margin-top: 0;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 20px;
+
+        }
+
+        &__item {
+            min-width: 260px;
+            margin: 50px 30px;
+
+
+            &-img {
+                display: block;
+
+            }
+        }
+
+        &__descr {}
+    }
+
+    .pricing {
+        &__item {
+            width: 217px;
+            padding: 37px 0 13px 0;
+        }
+    }
+
+    .item {
+        &__button {
+            width: 147px;
+            height: 51px;
+            margin: 29px auto;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+
+    .container {
+        width: 490px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .info {
+        &__cards {
+            justify-content: center;
+        }
+    }
+
+    .pricing {
+        &__cards {
+            flex-direction: column;
+        }
+        &__item {
+            width: 400px;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: 295px;
+    }
+
+    .menu {
+        &__nav {
+            width: 283px;
+        }
+        &__items {
+            width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+        }
+    }
+
+    .header {
+        
+        &__title {
+            font-size: 50px;
+            line-height: 50px;
+        }
+        &__descr {
+            width: 300px;
+            font-size: 16px;
+        }
+        &__inner {
+            margin-top: 50px;
+        }
+    }
+    .addTab {
+        min-height: 160px;
+        &__inner {
+            flex-direction: column;
+            padding: 20px;
+        }
+        &__text {
+            width: 260px;
+        }
+        &__button {
+            margin-top: 20px;
+        }
+    }
+    .footer {
+        padding: 30px;
+        &__inner {
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__text {
+            font-size: 21px;
+            line-height: 30px;
+        }
+
+        &__logo {
+            margin-top: 30px;
+        }
+    }
+}

@@ -235,7 +235,7 @@ img {
     line-height: 42px;
     padding: 93px 100px 88px 100px;
     position: absolute;
-    top: 0;
+    top: 2px;
     left: 0;
     transform: translateY(-100%);
     background-color: #fff;

@@ -31,7 +31,7 @@ for (let smoothLink of smoothLinks) {
             block: 'start'
         });
     });
-};
+}
 
 // buttons 
 

@@ -120,8 +120,8 @@ new Card(
 ).render();
 new Card(
     "img/works/cesar-1.jpg",
-    "cesar",
-    'Cesar',
+    "auxpo",
+    'auxpo',
     'Главная страница сайта посвященная продаже NFT изображений',
     '/auxpo'
 

@@ -135,12 +135,20 @@ new Card(
 
 ).render();
 new Card(
+    "img/works/StarCraft_II.jpg",
+    "starcraft",
+    'Starcraft',
+    'Небольшая игра созданная с помощью Vue',
+    '/starcraft'
+).render();
+new Card(
     "img/works/mavic.png",
     "mavic",
     'Mavic',
     'Лендинг для презентации квадракоптеров DJI Mavic',
     '/mavic'
 ).render();
+
 
 
 

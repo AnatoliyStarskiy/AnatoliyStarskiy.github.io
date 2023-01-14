@@ -365,7 +365,7 @@ template {
 .promo__btns {
     margin-top: 25px;
     display: flex;
-    width: 283px;
+    width: 300px;
     justify-content: space-between;
     align-items: center
 }
@@ -1027,7 +1027,7 @@ template {
     width: 50px;
     overflow: hidden;
     position: relative;
-    transition: all 1s ;
+    transition: all 1s;
 }
 
 .portfolio__item img {
@@ -1173,13 +1173,34 @@ template {
 
     .skills__item {
         width: 200px;
-        height: 200px
+        height: 200px;
+        overflow: hidden;
     }
 
     .skills__pic {
-        width: 160px;
-        height: 160px
+        width: 50%;
+        height: 50%;
     }
+
+    .skills__front{
+        width: 260px;
+        height: 200px;
+    }
+
+    .skills__back{
+        width: 230px;
+        height: 200px;
+    }
+
+    .skills__back .title{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .skills__descr{
+        max-width: 170px;
+        font-size: 12px;
+    }
+
 
     .skills__ratings {
         grid-template: repeat(auto-fit, minmax(70px, auto))/repeat(2, 1fr);
@@ -1281,6 +1302,8 @@ template {
         display: block;
     }
 }
+
+
 
 @media(max-width:992px) {
     .container {
@@ -1390,6 +1413,16 @@ template {
     .skills__ratings-line {
         width: 428px
     }
+
+    .portfolio__item .portfolio__title-active {
+        transform: rotate(360deg) translateX(20.5%) translatey(10%);
+    }
+
+    .portfolio__descr, .portfolio__descr-active {
+        max-width: 80%;
+    }
+
+
 }
 
 @media(max-width:576px) {

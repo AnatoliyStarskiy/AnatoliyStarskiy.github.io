@@ -374,7 +374,7 @@ window.addEventListener('DOMContentLoaded', function () {
         "img/works/StarCraft_II.jpg",
         "starcraft",
         'Starcraft',
-        'Небольшая игра созданная с помощью Vue',
+        'A small game created using Vue',
         '/starcraft'
     ).render();
 
@@ -383,45 +383,8 @@ window.addEventListener('DOMContentLoaded', function () {
         "img/works/mavic.png",
         "Mavic",
         'Mavic',
-        'Лендинг для презентации квадракоптеров DJI Mavic',
+        'Landing page for the presentation of DJI Mavic quadcopters',
         '/mavic'
     ).render();
-
-
-
-
-    /* const portfolioItem = document.querySelectorAll('.portfolio__item');
-    const portfolioDescr = document.querySelectorAll('.portfolio__descr');
-    const portfolioTitle = document.querySelectorAll('.portfolio__title');
-
-    portfolioItem[portfolioItem.length - 1].classList.add('portfolio__item-active');
-    portfolioItem[portfolioItem.length - 1].querySelector('.portfolio__title').classList.add('portfolio__title-active');
-    portfolioItem[portfolioItem.length - 1].querySelector('.portfolio__descr').classList.add('portfolio__descr-active');
-
-
-
-    portfolioItem.forEach(item => {
-
-
-        item.addEventListener('click', () => {
-
-            portfolioItem.forEach(allItem => {
-                allItem.style.width = '5%';
-                item.classList.remove('portfolio__item-active');
-            });
-            portfolioTitle.forEach(allTitle => {
-                allTitle.classList.remove('portfolio__title-active');
-            });
-            portfolioDescr.forEach(allDescr => {
-                allDescr.classList.remove('portfolio__descr-active');
-            });
-
-            item.style.width = '100%';
-            item.classList.add('portfolio__item-active');
-            console.log(item.childNodes);
-            item.querySelector('.portfolio__title').classList.add('portfolio__title-active');
-            item.querySelector('.portfolio__descr').classList.add('portfolio__descr-active');
-        });
-    }); */
 
 });

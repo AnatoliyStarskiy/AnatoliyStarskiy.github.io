@@ -323,7 +323,7 @@ window.addEventListener('DOMContentLoaded', function () {
                     <div class="description">
                         <h4>${this.title}</h4>
                         <p>${this.descr}</p>
-                        <a href='${this.link}'>Перейти</a>
+                        <a href='${this.link}'>Link</a>
                     </div>
                 </div>
             
@@ -337,7 +337,7 @@ window.addEventListener('DOMContentLoaded', function () {
         "img/works/pulse.jpg",
         "Pulse",
         'Pulse',
-        'Лендинг для продажи браслетов для спорта',
+        'Landing page for selling fitness bracelets',
         '/Pulse',
         true
     ).render();
@@ -347,7 +347,7 @@ window.addEventListener('DOMContentLoaded', function () {
         "img/works/odig.jpg",
         "Odig",
         'Odig',
-        'Сайт для туристов, которые собираются посетить Японию',
+        'Website for tourists who are going to visit Japan',
         '/odig'
     ).render();
 
@@ -356,7 +356,7 @@ window.addEventListener('DOMContentLoaded', function () {
         "img/works/cesar-1.jpg",
         "auxpo",
         'auxpo',
-        'Главная страница сайта посвященная продаже NFT изображений',
+        'The main page of the site dedicated to the sale of NFT images',
         '/auxpo'
     ).render();
 
@@ -365,7 +365,7 @@ window.addEventListener('DOMContentLoaded', function () {
         "img/works/paralax.jpg",
         "Paralax",
         'Paralax',
-        'Сайт демонстрирующий реализацию паралакс эффекта на сайте. Создан на основе разобранного векторного изображения',
+        'Website demonstrating the implementation of the parallax effect',
         '/paralax'
     ).render();
 
